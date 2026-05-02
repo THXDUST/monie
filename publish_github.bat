@@ -15,7 +15,7 @@ SET /P msg="Commit message: "
 git commit -m "%msg%"
 
 echo Publicando...
-git push -u origin main
+git push -u origin main --force
 
 echo Pronto.
 @pause
